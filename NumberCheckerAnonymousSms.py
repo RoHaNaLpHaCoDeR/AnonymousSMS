@@ -109,7 +109,6 @@ def monitor_website():
                     send_notification(latest_number)
                     previous_number = latest_number
                 else:
-                    send_notification(latest_number)
                     print("No new number detected.")
         except Exception as e:
             print(f"Error: {e}")
