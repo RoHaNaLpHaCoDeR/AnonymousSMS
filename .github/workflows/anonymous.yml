@@ -1,4 +1,4 @@
-name: Download Videos
+name: AnonymousSMS
 
 on:
   workflow_dispatch:
